@@ -1,6 +1,14 @@
-# PHP Docker
+# Image Detail Gallery with cms
 
-A simple starter kit to run php-mysql with Docker.
+Create and manage content for a one page web gallery of images with points of interest details.
+
+Add a folder of jpg images to the `projects` folder of the repo and visit index.php to start creating your gallery.
+
+
+## PHP Docker
+
+Uses PHP Docker as a starting point.
+https://github.com/raflizocky/php-docker/tree/main
 
 ## Project Structure
 
@@ -25,17 +33,8 @@ A simple starter kit to run php-mysql with Docker.
 ## Setup
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/raflizocky/php-docker.git
-   cd php-docker
-   ```
 
-2. Copy the environment example file:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Start the containers:
+2. Start the containers:
    ```bash
    docker-compose up -d
    ```
@@ -48,7 +47,3 @@ A simple starter kit to run php-mysql with Docker.
     - Server: `db`
     - Username: `root`
     - Password: `rootpassword`
-
-## License
-
-Code released under the [MIT License](https://github.com/raflizocky/e-voting/blob/main/LICENSE). Attribution appreciated.
